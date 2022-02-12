@@ -1,0 +1,318 @@
+2021-07-10 00:06:14.669 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:07:11.799 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:08:11.824 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:09:20.494 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:13:17.540 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:18:40.575 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:19:13.574 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:19:24.783 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:20:13.590 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:27:49.277 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:28:14.049 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:29:25.934 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:30:15.731 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 00:31:14.315 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:21:07.928 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:22:38.576 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:22:58.164 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:23:17.484 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:32:20.933 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:32:38.646 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:32:46.630 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:32:46.630 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 21:46:01.202 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 22:05:17.692 +07:00 [INF] AccessGranted [ success:true, total:161, data:160]
+
+2021-07-10 22:20:40.133 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 22:30:19.955 +07:00 [INF] AccessGranted [ success:true, total:161, data:160]
+
+2021-07-10 22:40:49.312 +07:00 [INF] AccessGranted [ success:true, total:161, data:160]
+
+2021-07-10 22:53:32.086 +07:00 [INF] AccessGranted [ success:true, total:161, data:160]
+
+2021-07-10 22:56:56.518 +07:00 [INF] AccessGranted [ success:true, total:161, data:160]
+
+2021-07-10 22:57:58.375 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:57:58.375 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:57:58.378 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:57:58.383 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=148 [ success:1, total:1, data:1]
+
+2021-07-10 22:57:58.386 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:57:58.391 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=171 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.536 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.541 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.545 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=117 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.559 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.590 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.592 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.596 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=175 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.596 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=151 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:00.643 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:01.298 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:01.308 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=179 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:04.302 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:05.978 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:05.979 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:05.983 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=196 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:05.983 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=189 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.014 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.021 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.023 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.027 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=208 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.060 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.073 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=174 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.079 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.085 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=192 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.090 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.095 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=180 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.099 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.100 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.102 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.106 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=207 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.108 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=182 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.111 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=10F85D4B38204452B11C1C86E1427B0F&module=persondata&ch_id=210 [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.111 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.118 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.121 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.124 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.127 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 22:58:06.131 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:04:14.167 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 23:16:20.990 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 23:23:24.774 +07:00 [INF] AccessGranted [ success:true, total:93, data:92]
+
+2021-07-10 23:23:28.651 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:23:28.652 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:23:28.656 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:23:53.769 +07:00 [INF] AccessGranted [ success:true, total:1, data:0]
+
+2021-07-10 23:25:13.655 +07:00 [INF] AccessGranted [ success:true, total:175, data:174]
+
+2021-07-10 23:25:16.635 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.637 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.641 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=183 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.641 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=209 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.654 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.658 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=158 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.663 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=212 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.667 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.667 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.672 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.675 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=160 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.680 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=154 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:16.686 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=186 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:17.270 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:17.274 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=181 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.839 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.844 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.849 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=178 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.850 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.849 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=195 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.851 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.853 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.856 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=163 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.861 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=193 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:18.864 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=188 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:29.928 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:29.932 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=152 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:29.947 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:25:29.981 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:25:29.996 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:25:30.000 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=149 [ success:1, total:1, data:1]
+
+2021-07-10 23:25:30.003 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:25:30.015 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.869 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.869 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.869 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.869 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.869 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.869 +07:00 [INF] GET_USER [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.871 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:25:30.022 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.871 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.871 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.877 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.878 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.874 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.878 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.881 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.883 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:26:50.884 +07:00 [INF] http://localhost:8080/ASWeb/WebService.srf?action=GET_USER&token=1B58A492A335428386D775381CDB9E57&module=persondata&ch_id=169 [ success:1, total:1, data:1]
+
+2021-07-10 23:27:27.000 +07:00 [INF] AccessGranted [ success:true, total:0, data:0]
+
+2021-07-10 23:47:21.232 +07:00 [INF] GET_CARD [ success:true, total:161, data:160]
+
+2021-07-10 23:47:53.733 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:47:53.735 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:47:53.742 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:11.348 +07:00 [INF] GET_CARD [ success:true, total:175, data:174]
+
+2021-07-10 23:48:40.250 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.250 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.254 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.255 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.254 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.259 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.605 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.615 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.624 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.628 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:40.631 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.604 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.620 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.632 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.641 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.645 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.648 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.654 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.657 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:43.660 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:48:45.571 +07:00 [INF] GET_CARD [ success:1, total:1, data:1]
+
+2021-07-10 23:50:59.620 +07:00 [INF] GET_CARD [ success:true, total:0, data:0]
+

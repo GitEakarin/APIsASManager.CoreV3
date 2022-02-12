@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="D:/TA_Project/Ajinomoto/Access_Control-NK/100-Attandance_Web_Report/APIsASManager.CoreV3/APIsASManager.CoreV3/ASManagerLite.db" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><current_tab id="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3429"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="ACCESS_LOG"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">create view v_access_log
+
+as
+
+select
+
+log_id
+
+,
+
+FROM
+
+ACCESS_LOG
+
+
+
+select * from v_access_log</sql><sql name="SQL 1">delete from ACCESS_LOG</sql><sql name="SQL 1">select date(log_time, 'localtime') as d1, * 
+
+
+
+FROM
+
+ACCESS_LOG
+
+where date(log_time, 'YYYY/MM/DD') ='2021/04/02'
+
+
+
+SELECT datetime('now', 'localtime');
+
+
+
+delete from ACCESS_LOG</sql><sql name="SQL 1">delete from ACCESS_LOG</sql><sql name="SQL 1">select *
+
+from ACCESS_LOG
+
+WHERE
+
+datetime(log_time) &gt;= datetime('2021-04-02 17:13:34')</sql><sql name="SQL 1">delete from ACCESS_LOG</sql><current_tab id="5"/></tab_sql></sqlb_project>

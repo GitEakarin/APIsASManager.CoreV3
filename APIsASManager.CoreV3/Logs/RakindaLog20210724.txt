@@ -1,0 +1,24 @@
+2021-07-24 11:21:15.756 +07:00 [INF] /v3/api/DoorController/temperatureRecord [ data: {
+    "qrcode": "qrcode",
+    "device_no": "device_no",
+    "oper_type": "oper_type",
+    "base64": "base64",
+    "temperature": 0,
+    "nonce": "nonce",
+    "sign": "sign",
+    "code": "code",
+    "msg": "msg"
+}]
+
+2021-07-24 11:22:53.521 +07:00 [INF] /v3/api/Door/temperatureRecord [ data: {
+    "qrcode": "qrcode",
+    "device_no": "device_no",
+    "oper_type": "oper_type",
+    "base64": "base64",
+    "temperature": 0,
+    "nonce": "nonce",
+    "sign": "sign",
+    "code": "code",
+    "msg": "msg"
+}]
+
