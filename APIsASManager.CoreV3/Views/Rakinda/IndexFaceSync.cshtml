@@ -1,0 +1,13 @@
+﻿@model APIsASManager.CoreV3.Models.RakindaModel;
+
+@{
+    ViewData["Title"] = "IndexFaceSync";
+}
+<link href="~/plugins/datatables-bs4/css/dataTables.bootstrap4.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<h1>IndexFaceSync</h1>
+
+<div class="row" id="_Result">
+    <partial name="/Views/Rakinda/_IndexFaceSync.cshtml" for="@Model.ListFaceSync" />
+</div>

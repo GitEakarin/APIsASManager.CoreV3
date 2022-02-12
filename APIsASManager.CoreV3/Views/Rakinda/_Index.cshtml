@@ -1,0 +1,59 @@
+﻿
+@model APIsASManager.CoreV3.Models.RakindaModel;
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped" id="myTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().created)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().device_no)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().qrcode)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().oper_type)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().userName)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().temperature)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().nonce)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().sign)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().code)</th>
+                <th>@Html.DisplayNameFor(x => x.ListPageModel.FirstOrDefault().msg)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.ListPageModel.Count; i++)
+            {
+                <tr>
+                    <td>@(i+1)</td>
+                    <td>@Model.ListPageModel[i].created</td>
+                    <td>@Model.ListPageModel[i].device_no</td>
+                    <td>@Model.ListPageModel[i].qrcode</td>
+                    <td>@Model.ListPageModel[i].oper_type&nbsp;-&nbsp;@Model.ListPageModel[i].oper_type_desc</td>
+                    <td>@Model.ListPageModel[i].userName</td>
+                    <td>@Model.ListPageModel[i].temperature</td>
+                    <td>@Model.ListPageModel[i].nonce</td>
+                    <td>@Model.ListPageModel[i].sign</td>
+                    <td>@Model.ListPageModel[i].code</td>
+                    <td>@Model.ListPageModel[i].msg</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript">
+    $('#myTable').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "order": [],
+        "columnDefs": [
+            { "targets": 'no-sort', "orderable": false }
+        ]
+    });
+</script>

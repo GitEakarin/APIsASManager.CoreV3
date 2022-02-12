@@ -1,0 +1,66 @@
+﻿@model List<APIsASManager.CoreV3.Models.EFModels.FACE_SYNC>;
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped" id="myTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th></th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().userId)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().deptName)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().cardNum)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().newCardNum)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().name)</th>
+                <th hidden="hidden">@Html.DisplayNameFor(x => x.FirstOrDefault().base64)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().deviceId)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().Created)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().Modified)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i+1)</td>
+                    <td>
+                        <div class="btn-group-sm" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary mr-2">Sync</button>
+                            <button type="button" class="btn btn-secondary mr-2">Del</button>
+                        </div>
+                    </td>
+                    <td>@Model[i].userId</td>
+                    <td>@Model[i].deptName</td>
+                    <td>@Model[i].cardNum</td>
+                    <td>@Model[i].newCardNum</td>
+                    <td>@Model[i].name</td>
+                    <td hidden="hidden">@Model[i].base64</td>
+                    <td>@Model[i].deviceId</td>
+                    <td>@Model[i].Created</td>
+                    <td>@Model[i].Modified</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript">
+    $('#myTable').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "order": [],
+        "columnDefs": [
+            { "targets": 'no-sort', "orderable": false }
+        ]
+    });
+</script>

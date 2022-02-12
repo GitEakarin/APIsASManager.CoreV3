@@ -1,0 +1,56 @@
+﻿@model List<APIsASManager.CoreV3.Models.EFModels.CHECK_OPEN_AUTH>;
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="table-responsive">
+    <table class="table table-hover table-striped" id="myTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().created)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().qrcode)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().device_no)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().oper_type)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().nonce)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().sign)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().code)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().msg)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i+1)</td>
+                    <td>@Model[i].created</td>
+                    <td>@Model[i].qrcode</td>
+                    <td>@Model[i].device_no</td>
+                    <td>@Model[i].oper_type</td>
+                    <td>@Model[i].nonce</td>
+                    <td>@Model[i].sign</td>
+                    <td>@Model[i].code</td>
+                    <td>@Model[i].msg</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript">
+    $('#myTable').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "order": [],
+        "columnDefs": [
+            { "targets": 'no-sort', "orderable": false }
+        ]
+    });
+</script>

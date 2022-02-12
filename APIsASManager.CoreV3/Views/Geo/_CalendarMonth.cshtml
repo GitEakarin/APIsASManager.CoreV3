@@ -1,0 +1,73 @@
+﻿@model List<List<DateTime>>
+<style type="text/css">
+    table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+        table caption {
+            font-size: 1.5em;
+            margin: .5em 0 .75em;
+        }
+
+        table tr {
+            border: 1px solid #ddd;
+            padding: .35em;
+        }
+
+            table tr:nth-child(even) {
+                background: #f8f8f8;
+            }
+
+        table th,
+        table td {
+            padding: .625em;
+            text-align: left;
+        }
+
+        table th {
+            background: #999;
+            color: #fff;
+            /*font-size: .85em;*/
+            letter-spacing: .1em;
+            text-align: center;
+            /*text-transform: uppercase;*/
+        }
+
+        table td {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+</style>
+
+<div class="container-fluid border rounded-0 border-dark p-3">
+    <div class="table-responsive">
+        <table class="table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Su</th>
+                    <th scope="col">Mo</th>
+                    <th scope="col">Tu</th>
+                    <th scope="col">We</th>
+                    <th scope="col">Th</th>
+                    <th scope="col">Fr</th>
+                    <th scope="col">Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var vItem1 in Model)
+                {
+                    <tr>
+                        @for (int i = 0; i < vItem1.Count; i++)
+                        {
+                            <td scope="row">@vItem1[i].Day</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

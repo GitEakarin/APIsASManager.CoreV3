@@ -1,0 +1,61 @@
+﻿
+@model List<APIsASManager.CoreV3.Models.EFModels.GET_USER>;
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped" id="myTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().Created)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().ch_id)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().ch_name)</th>
+                <th>@Html.DisplayName("ch_name_th")</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().ch_gender)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().b_department)</th>
+                @*<th>@Html.DisplayNameFor(x => x.FirstOrDefault().c_activation)</th>*@
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i+1)</td>
+                    <td>@Model[i].Created</td>
+                    <td>@Model[i].ch_id</td>
+                    <td>@Model[i].ch_name</td>
+                    <td>@Model[i].u_def01 &nbsp; @Model[i].u_def02</td>
+                    <td>
+                        @if (Model[i].ch_gender == 0)
+                        {
+                            <i class="fa fa-2x fa-female" aria-hidden="true"></i>
+                        }
+                        else
+                        {
+                            <i class="fa fa-2x fa-male" aria-hidden="true"></i>
+                        }
+                    </td>
+                    <td>@Model[i].b_department</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript">
+    $('#myTable').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "order": [],
+        "columnDefs": [
+            { "targets": 'no-sort', "orderable": false }
+        ]
+    });
+</script>

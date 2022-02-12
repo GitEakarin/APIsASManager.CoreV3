@@ -1,0 +1,60 @@
+﻿@model APIsASManager.CoreV3.Models.RakindaModel;
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="table-responsive">
+    <table class="table table-hover table-striped" id="myTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().created)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().device_no)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().qrcode)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().oper_type)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().userName)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().temperature)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().nonce)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().sign)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().code)</th>
+                <th>@Html.DisplayNameFor(x => x.ListTemperatureRecord.FirstOrDefault().msg)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.ListTemperatureRecord.Count; i++)
+            {
+                <tr>
+                    <td>@(i+1)</td>
+                    <td class="text-nowrap">@Model.ListTemperatureRecord[i].created</td>
+                    <td>@Model.ListTemperatureRecord[i].device_no</td>
+                    <td>@Model.ListTemperatureRecord[i].qrcode</td>
+                    <td>@Model.ListTemperatureRecord[i].oper_type&nbsp;-&nbsp;@Model.ListTemperatureRecord[i].oper_type_desc</td>
+                    <td>@Model.ListTemperatureRecord[i].userName</td>
+                    <td>@Model.ListTemperatureRecord[i].temperature</td>
+                    <td>@Model.ListTemperatureRecord[i].nonce</td>
+                    <td>@Model.ListTemperatureRecord[i].sign</td>
+                    <td>@Model.ListTemperatureRecord[i].code</td>
+                    <td>@Model.ListTemperatureRecord[i].msg</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript">
+    $('#myTable').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "order": [],
+        "columnDefs": [
+            { "targets": 'no-sort', "orderable": false }
+        ]
+    });
+</script>

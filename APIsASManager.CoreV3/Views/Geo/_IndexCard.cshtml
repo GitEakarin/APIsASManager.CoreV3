@@ -1,0 +1,51 @@
+﻿
+@model List<APIsASManager.CoreV3.Models.EFModels.GET_CARD>;
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped" id="myTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().Created)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().ch_id)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().c_no)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().c_access_group_name)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().ch_name)</th>
+                <th>@Html.DisplayNameFor(x => x.FirstOrDefault().c_activation)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i+1)</td>
+                    <td>@Model[i].Created</td>
+                    <td>@Model[i].ch_id</td>
+                    <td>@Model[i].c_no</td>
+                    <td>@Model[i].c_access_group_name</td>
+                    <td>@Model[i].ch_name</td>
+                    <td>@Model[i].c_activation.Date.ToString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript">
+    $('#myTable').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "order": [],
+        "columnDefs": [
+            { "targets": 'no-sort', "orderable": false }
+        ]
+    });
+</script>

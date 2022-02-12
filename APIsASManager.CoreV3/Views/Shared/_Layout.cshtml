@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - APIsASManager.CoreV3</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" />*@
+    <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebApplication1</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/docs/index.html">APIs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                rakinda
+                            </a>
+                            <div class="dropdown-menu w-auto">
+                                <a class="nav-link text-dark w-auto" asp-area="" asp-controller="Rakinda" asp-action="Index">Record Data</a>
+                                <a class="nav-link text-dark w-auto" asp-area="" asp-controller="Rakinda" asp-action="IndexTemperatureRecord">Temp. Record</a>
+                                <a class="nav-link text-dark w-auto" asp-area="" asp-controller="Rakinda" asp-action="IndexHeartBreak">Heart Break</a>
+                                <a class="nav-link text-dark w-auto" asp-area="" asp-controller="Rakinda" asp-action="IndexCheckOpenAuth">Check Open Auth</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Rakinda" asp-action="ExceptionData">Exception</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Rakinda" asp-action="IndexFaceSync">Face Sync</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown" hidden="hidden">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                geo
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Geo" asp-action="IndexCard">Card</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Geo" asp-action="IndexUser">User</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Geo" asp-action="IndexAccessGrant">Access Grant Log</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid pl-5 pr-5">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - WebApplication1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<script type="text/javascript">
+    //$('#myTbl').DataTable({
+    //    "paging": true,
+    //    "lengthChange": true,
+    //    "searching": true,
+    //    "ordering": true,
+    //    "info": true,
+    //    "autoWidth": false,
+    //    "responsive": true,
+    //    "order": [],
+    //    "columnDefs": [
+    //        { "targets": 'no-sort', "orderable": false }
+    //    ]
+    //});
+</script>

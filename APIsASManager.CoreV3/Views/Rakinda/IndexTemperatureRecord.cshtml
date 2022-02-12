@@ -1,0 +1,70 @@
+﻿@model APIsASManager.CoreV3.Models.RakindaModel;
+
+@{
+    ViewData["Title"] = "Index Temperature Record";
+}
+<link href="~/plugins/datatables-bs4/css/dataTables.bootstrap4.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+@{ var pModel = Model.Search; }
+
+<h1>TemperatureRecord</h1>
+
+<div class="container-fluid p-0">
+
+    <div class="row pl-3 pb-3">
+        @ViewData["index"]
+    </div>
+    <div class="row pb-3 pl-0 pr-0">
+        <form method="get" asp-action="SearchTemperatureRecord" asp-controller="Rakinda"
+              data-ajax="true"
+              data-ajax-method="get"
+              data-ajax-mode="replace"
+              data-ajax-update="#_Result" class="w-100">
+            <div class="d-inline-flex mr-auto ml-auto w-100">
+                <div class="col-md">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@Html.DisplayNameFor(m => pModel.FromDate)</span>
+                        </div>
+                        @Html.TextBoxFor(m => pModel.FromDate, "{0:yyyy-MM-dd}", new { @class = "form-control date", @type = "date", @Value = pModel.FromDate.ToString("yyyy-MM-dd"), @id = "FromDate", @name = "FromDate" })
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@Html.DisplayNameFor(m => pModel.FromTime)</span>
+                        </div>
+                        @Html.TextBoxFor(m => pModel.FromTime, "{0:HH:mm}", new { @class = "form-control", @type = "time" })
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@Html.DisplayNameFor(m => pModel.ToDate)</span>
+                        </div>
+                        @Html.TextBoxFor(m => pModel.ToDate, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date", @Value = pModel.ToDate, @id = "ToDate", @name = "ToDate" })
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@Html.DisplayNameFor(m => pModel.ToTime)</span>
+                        </div>
+                        @Html.TextBoxFor(m => pModel.ToTime, "{0:HH:mm}", new { @class = "form-control", @type = "time" })
+                    </div>
+                </div>
+                <div class="co-md">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fa fa-search"></i><b>Search</b>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row" id="_Result">
+        <partial name="/Views/Rakinda/_IndexTemperatureRecord.cshtml" for="@Model" />
+    </div>
+</div>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\TA_Project\Ajinomoto\Access_Control-NK\100-Attandance_Web_Report\APIsASManager.CoreV3\APIsASManager.CoreV3\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2021-07-20T15:43:27.9595520Z;True|2021-07-20T22:14:41.7922982+07:00;True|2021-07-20T22:12:12.2109572+07:00;True|2021-07-20T21:23:47.5974779+07:00;True|2021-07-18T21:48:56.9781893+07:00;True|2021-07-18T21:34:10.7621356+07:00;True|2021-07-18T21:00:13.8554371+07:00;</History>
+  </PropertyGroup>
+</Project>
